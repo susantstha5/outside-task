@@ -1,0 +1,131 @@
+@media screen and (min-width: 376px) {
+    h2 {
+        font-size: 63px;
+        line-height: 90%;
+    }
+
+    h4 {
+        font-size: 47px;
+        line-height: 100%;
+        letter-spacing: -1px;
+    }
+
+    h5 {
+        font-size: 28px;
+        line-height: 90%;
+    }
+
+    p {
+        font-size: 27px;
+
+        letter-spacing: -1px;
+    }
+
+    .sliderSection {
+        padding-bottom: 120px;
+    }
+
+    .heroSection-top {
+        padding-bottom: 120px;
+    }
+
+    .heroSection {
+        padding-top: 120px;
+
+        &.learnSection {
+            padding-top: 120px;
+
+            .heroSection {
+                &-top-title {
+                    font-size: 245px;
+                    letter-spacing: -7px;
+                    margin-bottom: -55px;
+                    margin-left: calc(100vw - 105rem);
+                    line-height: 210px;
+                }
+
+                &-article {
+                    .row {
+                        flex-direction: row;
+                    }
+                }
+            }
+        }
+
+        &-top-title {
+            font-size: 245px;
+            letter-spacing: -7px;
+            margin-bottom: -55px;
+            margin-left: calc(100vw - 79rem);
+            line-height: 210px;
+        }
+
+        &-details {
+            padding: 50px 0 0;
+
+            h2 {
+                margin-bottom: 24px;
+            }
+
+            p {
+                margin-bottom: 32px;
+            }
+        }
+    }
+
+    .sliderCard {
+        height: 404px;
+        width: 360px;
+
+        margin-right: 26px;
+
+        &-top {
+            padding: 24px;
+        }
+    }
+
+    .section-btn {
+        font-size: 27px;
+
+        img {
+            width: 20px;
+        }
+
+        &:hover {
+            img {
+                width: 25px;
+            }
+        }
+    }
+
+    .resourceCard {
+        width: 360px;
+        margin-right: 26px;
+
+        &:hover {
+            .resourceCard {
+                &-title {
+                    font-size: 47px;
+                }
+            }
+        }
+
+        &-img {
+            margin-bottom: 16px;
+        }
+
+        &-meta {
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .sliderSection-heading {
+        margin-bottom: 48px;
+    }
+
+    .divider {
+        height: 10px;
+    }
+}

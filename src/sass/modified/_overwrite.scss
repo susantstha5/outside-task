@@ -1,0 +1,33 @@
+figure {
+    margin: 0;
+}
+
+.container {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+@media screen and (min-width:599px) {
+    .container {
+        padding-left: 48px;
+        padding-right: 48px;
+    }
+
+}
+
+@media screen and (min-width:899px) {
+    .container {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+}
+
+@media screen and (min-width:1299px) {
+    .container {
+        max-width: 1680px;
+        padding-left: 120px;
+        padding-right: 120px;
+
+    }
+}

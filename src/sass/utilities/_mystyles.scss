@@ -1,0 +1,37 @@
+@import "variables";
+@import "mixins";
+
+
+body {
+  font-family: "sunset-gothic-bold-pro";
+  overflow-x: hidden;
+  background: $dusty-pink;
+}
+
+
+a {
+  color: rgba(0, 0, 0, 0.8);
+  transition: all .2s linear;
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+  }
+}
+
+
+
+// 
+
+.linear-trans {
+  transition: all .2s linear;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+
+
+
+
