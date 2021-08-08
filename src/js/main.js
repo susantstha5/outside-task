@@ -45,7 +45,7 @@
     .from(lines1, {
       duration: 1,
       opacity: 0.8,
-      y: 100,
+      y: 120,
       stagger: 0.1,
       ease: "power2",
     });
